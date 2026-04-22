@@ -7,12 +7,12 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 ## ⬇ Latest Download
 
-**[TreeSnipe_0.1.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.1.0/TreeSnipe_0.1.0_x64-setup.exe)** &nbsp;·&nbsp; v0.1.0 &nbsp;·&nbsp; Released 2026-04-19
+**[TreeSnipe_0.2.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.0/TreeSnipe_0.2.0_x64-setup.exe)** &nbsp;·&nbsp; v0.2.0 &nbsp;·&nbsp; Released 2026-04-22
 
-> ## TreeSnipe v0.1.0 — Initial Release  
-> Drag racing reaction time practice app for Windows.  
-> ### Features  
-> - Sportsman .500 tree and Pro .400 tree
+> ## TreeSnipe v0.2.0  
+> ### New Features  
+> - **Practice Mode Enhancements**: Added Easy/Medium/Hard difficulty presets with adjustable opponent reaction times  
+> - **Auto-Save Sessions**: Automatic session saving after each run with session history and JSON export
 
 ---
 
@@ -20,11 +20,35 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 | Version | Released | Download |
 |---------|----------|----------|
+| **v0.2.0** | 2026-04-22 | [TreeSnipe_0.2.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.0/TreeSnipe_0.2.0_x64-setup.exe) |
 | **v0.1.0** | 2026-04-19 | [TreeSnipe_0.1.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.1.0/TreeSnipe_0.1.0_x64-setup.exe) |
 
 ---
 
 ## Release Notes
+
+### v0.2.0 — 2026-04-22
+
+## TreeSnipe v0.2.0
+
+### New Features
+- **Practice Mode Enhancements**: Added Easy/Medium/Hard difficulty presets with adjustable opponent reaction times
+- **Auto-Save Sessions**: Automatic session saving after each run with session history and JSON export
+- **Performance Analytics**: 
+  - Selectable trends window (Last 20/Last 50/All runs)
+  - Sportsman class benchmark comparison (0.030-0.080s range)
+  - Run number heatmap showing performance by run number
+- **Auto-Update System**: Automatic update checking from GitHub releases with changelog display
+
+### Bug Fixes
+- **Removed Bracket Mode**: Removed bracket mode from UI and code
+- **Fixed Amber Light Sequencing**: Amber lights now turn off when next lights up (proper sequential pattern)
+- **Fixed LED Instant On/Off**: LED lights now have instant transitions (no fade), incandescent retains gradual fade
+
+### Improvements
+- Enhanced session management with auto-save
+- Better performance analytics and visualization
+- Improved update checking and notification system
 
 ### v0.1.0 — 2026-04-19
 
