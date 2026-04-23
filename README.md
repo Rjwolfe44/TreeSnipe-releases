@@ -7,12 +7,12 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 ## ⬇ Latest Download
 
-**[TreeSnipe_0.2.1_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.1/TreeSnipe_0.2.1_x64-setup.exe)** &nbsp;·&nbsp; v0.2.1 &nbsp;·&nbsp; Released 2026-04-23
+**[TreeSnipe_0.2.2_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.2/TreeSnipe_0.2.2_x64-setup.exe)** &nbsp;·&nbsp; v0.2.2 &nbsp;·&nbsp; Released 2026-04-23
 
-> ## TreeSnipe v0.2.1  
+> ## TreeSnipe v0.2.2  
 > ### Bug Fixes  
-> - **Fixed auto-update check**: Switched from Rust reqwest to JavaScript fetch API for more reliable update checking  
-> - **Added better error reporting**: Update check now shows detailed error messages when it fails
+> - **Fixed rollout calculation**: Rollout now correctly acts as a delay (added to reaction time instead of subtracted)  
+> - Rollout now properly delays reaction time as intended, similar to a delay box but without the amber trigger
 
 ---
 
@@ -20,6 +20,7 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 | Version | Released | Download |
 |---------|----------|----------|
+| **v0.2.2** | 2026-04-23 | [TreeSnipe_0.2.2_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.2/TreeSnipe_0.2.2_x64-setup.exe) |
 | **v0.2.1** | 2026-04-23 | [TreeSnipe_0.2.1_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.1/TreeSnipe_0.2.1_x64-setup.exe) |
 | **v0.2.0** | 2026-04-22 | [TreeSnipe_0.2.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.0/TreeSnipe_0.2.0_x64-setup.exe) |
 | **v0.1.0** | 2026-04-19 | [TreeSnipe_0.1.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.1.0/TreeSnipe_0.1.0_x64-setup.exe) |
@@ -27,6 +28,19 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 ---
 
 ## Release Notes
+
+### v0.2.2 — 2026-04-23
+
+## TreeSnipe v0.2.2
+
+### Bug Fixes
+- **Fixed rollout calculation**: Rollout now correctly acts as a delay (added to reaction time instead of subtracted)
+- Rollout now properly delays reaction time as intended, similar to a delay box but without the amber trigger
+
+### Technical Changes
+- Changed rollout calculation from subtraction to addition in timing.rs
+- Updated fake backend in app.js to match the corrected rollout behavior
+- Rollout now adds to the measured reaction time to simulate physical delay
 
 ### v0.2.1 — 2026-04-23
 
