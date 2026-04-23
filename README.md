@@ -7,12 +7,12 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 ## ⬇ Latest Download
 
-**[TreeSnipe_0.2.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.0/TreeSnipe_0.2.0_x64-setup.exe)** &nbsp;·&nbsp; v0.2.0 &nbsp;·&nbsp; Released 2026-04-22
+**[TreeSnipe_0.2.1_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.1/TreeSnipe_0.2.1_x64-setup.exe)** &nbsp;·&nbsp; v0.2.1 &nbsp;·&nbsp; Released 2026-04-23
 
-> ## TreeSnipe v0.2.0  
-> ### New Features  
-> - **Practice Mode Enhancements**: Added Easy/Medium/Hard difficulty presets with adjustable opponent reaction times  
-> - **Auto-Save Sessions**: Automatic session saving after each run with session history and JSON export
+> ## TreeSnipe v0.2.1  
+> ### Bug Fixes  
+> - **Fixed auto-update check**: Switched from Rust reqwest to JavaScript fetch API for more reliable update checking  
+> - **Added better error reporting**: Update check now shows detailed error messages when it fails
 
 ---
 
@@ -20,12 +20,27 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 | Version | Released | Download |
 |---------|----------|----------|
+| **v0.2.1** | 2026-04-23 | [TreeSnipe_0.2.1_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.1/TreeSnipe_0.2.1_x64-setup.exe) |
 | **v0.2.0** | 2026-04-22 | [TreeSnipe_0.2.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.0/TreeSnipe_0.2.0_x64-setup.exe) |
 | **v0.1.0** | 2026-04-19 | [TreeSnipe_0.1.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.1.0/TreeSnipe_0.1.0_x64-setup.exe) |
 
 ---
 
 ## Release Notes
+
+### v0.2.1 — 2026-04-23
+
+## TreeSnipe v0.2.1
+
+### Bug Fixes
+- **Fixed auto-update check**: Switched from Rust reqwest to JavaScript fetch API for more reliable update checking
+- **Added better error reporting**: Update check now shows detailed error messages when it fails
+- **Added test script**: Created tools/test_update_check.py for debugging update issues
+
+### Technical Changes
+- Removed Rust reqwest dependency for update checking
+- Update check now uses browser's fetch API (more reliable in desktop context)
+- Improved error handling and logging for update functionality
 
 ### v0.2.0 — 2026-04-22
 
