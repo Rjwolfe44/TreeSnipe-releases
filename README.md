@@ -7,9 +7,9 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 ## ⬇ Latest Download
 
-**[TreeSnipe_0.2.4_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.4/TreeSnipe_0.2.4_x64-setup.exe)** &nbsp;·&nbsp; v0.2.4 &nbsp;·&nbsp; Released 2026-04-23
+**[TreeSnipe_0.2.5_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.5/TreeSnipe_0.2.5_x64-setup.exe)** &nbsp;·&nbsp; v0.2.5 &nbsp;·&nbsp; Released 2026-04-23
 
-> TreeSnipe v0.2.4  
+> TreeSnipe v0.2.5  
 > New Features:  
 > - Win indicator for AI opponent  
 > - Shows YOU WIN or OPPONENT WINS when cross-talk enabled
@@ -20,6 +20,7 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 | Version | Released | Download |
 |---------|----------|----------|
+| **v0.2.5** | 2026-04-23 | [TreeSnipe_0.2.5_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.5/TreeSnipe_0.2.5_x64-setup.exe) |
 | **v0.2.4** | 2026-04-23 | [TreeSnipe_0.2.4_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.4/TreeSnipe_0.2.4_x64-setup.exe) |
 | **v0.2.3** | 2026-04-23 | [TreeSnipe_0.2.3_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.3/TreeSnipe_0.2.3_x64-setup.exe) |
 | **v0.2.2** | 2026-04-23 | [TreeSnipe_0.2.2_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.2/TreeSnipe_0.2.2_x64-setup.exe) |
@@ -30,6 +31,19 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 ---
 
 ## Release Notes
+
+### v0.2.5 — 2026-04-23
+
+TreeSnipe v0.2.5
+
+New Features:
+- Win indicator for AI opponent
+- Shows YOU WIN or OPPONENT WINS when cross-talk enabled
+
+Bug Fixes:
+- Fixed delay box button scroll issue
+- Made version display dynamic (no more hardcoded versions)
+- Version now reads from Tauri backend automatically
 
 ### v0.2.4 — 2026-04-23
 
