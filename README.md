@@ -7,12 +7,12 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 ## ⬇ Latest Download
 
-**[TreeSnipe_0.2.2_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.2/TreeSnipe_0.2.2_x64-setup.exe)** &nbsp;·&nbsp; v0.2.2 &nbsp;·&nbsp; Released 2026-04-23
+**[TreeSnipe_0.2.3_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.3/TreeSnipe_0.2.3_x64-setup.exe)** &nbsp;·&nbsp; v0.2.3 &nbsp;·&nbsp; Released 2026-04-23
 
-> ## TreeSnipe v0.2.2  
-> ### Bug Fixes  
-> - **Fixed rollout calculation**: Rollout now correctly acts as a delay (added to reaction time instead of subtracted)  
-> - Rollout now properly delays reaction time as intended, similar to a delay box but without the amber trigger
+> ## TreeSnipe v0.2.3  
+> ### Code Cleanup  
+> - **Removed unused Rust functions**: Cleaned up dead code in timing.rs and updater.rs  
+> - **Removed unused dependencies**: Removed regex crate that was no longer needed
 
 ---
 
@@ -20,6 +20,7 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 
 | Version | Released | Download |
 |---------|----------|----------|
+| **v0.2.3** | 2026-04-23 | [TreeSnipe_0.2.3_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.3/TreeSnipe_0.2.3_x64-setup.exe) |
 | **v0.2.2** | 2026-04-23 | [TreeSnipe_0.2.2_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.2/TreeSnipe_0.2.2_x64-setup.exe) |
 | **v0.2.1** | 2026-04-23 | [TreeSnipe_0.2.1_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.1/TreeSnipe_0.2.1_x64-setup.exe) |
 | **v0.2.0** | 2026-04-22 | [TreeSnipe_0.2.0_x64-setup.exe](https://github.com/Rjwolfe44/TreeSnipe-releases/releases/download/v0.2.0/TreeSnipe_0.2.0_x64-setup.exe) |
@@ -28,6 +29,22 @@ Sportsman .500 tree · Pro .400 tree · Delay box · Push/Release & Push/Push mo
 ---
 
 ## Release Notes
+
+### v0.2.3 — 2026-04-23
+
+## TreeSnipe v0.2.3
+
+### Code Cleanup
+- **Removed unused Rust functions**: Cleaned up dead code in timing.rs and updater.rs
+- **Removed unused dependencies**: Removed regex crate that was no longer needed
+- **Build now has no warnings**: All compilation warnings resolved
+
+### Technical Changes
+- Removed mber_interval_ms(), green_delay_ms(), 	otal_countdown_ms() from TreeType
+- Removed eleased_before_armed() from TreeRun
+- Removed ump_version() from updater.rs
+- Removed regex dependency from Cargo.toml
+- Code is now cleaner with no dead code or unused dependencies
 
 ### v0.2.2 — 2026-04-23
 
